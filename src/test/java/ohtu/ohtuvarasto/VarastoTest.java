@@ -45,7 +45,7 @@ public class VarastoTest {
     @Test
     public void negatiivinenAlkusaldoNollautuu() {
         varasto = new Varasto(10,-1);
-        assertEquals(1,varasto.getSaldo(),vertailuTarkkuus);
+        assertEquals(0,varasto.getSaldo(),vertailuTarkkuus);
     }
 
     @Test
